@@ -17,7 +17,7 @@ public class KnowledgeSourceSum extends KnowledgeSource{
     @Override
     public void solveProblem() {
         int result = (int) blackboard.getData("a") + (int) blackboard.getData("b");
-        blackboard.updateData("y", result);
+        blackboard.updateData("resultado", result);
         this.blackboard.changeProblem();
     }
     

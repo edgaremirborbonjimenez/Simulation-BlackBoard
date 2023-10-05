@@ -33,12 +33,12 @@ public class Main {
 
         System.out.println(blackBoard.getData("problem"));
         controller.chooseKnowledgeSource();
-        System.out.println("y = " + blackBoard.getData("y"));
+        System.out.println("resultado = " + blackBoard.getData("resultado"));
         
         
         System.out.println(blackBoard.getData("problem"));
         controller.chooseKnowledgeSource();
-        System.out.println("x = " + blackBoard.getData("x"));
+        System.out.println("resultado = " + blackBoard.getData("resultado"));
 
     }
 
